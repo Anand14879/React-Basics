@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+var require;
 export default {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -6,6 +8,8 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
-
+ 
