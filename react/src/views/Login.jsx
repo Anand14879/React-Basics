@@ -1,6 +1,8 @@
 
+
 export default function Login() {
     return (
+
         <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-purple-500 to-indigo-500 image-format" >
             {/* <div className="image-format"></div> */}
             <div className="bg-white p-8 rounded-lg shadow-lg w-96">
@@ -15,7 +17,7 @@ export default function Login() {
                 </h2>
 
                 <form className="mt-8 space-y-6">
-                    <div>
+                    <div className="container form-control">
                         <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                             Email address
                         </label>
@@ -30,7 +32,7 @@ export default function Login() {
                     </div>
 
                     <div>
-                        <div className="flex justify-between">
+                        <div className="flex justify-between form-control cotainer">
                             <label htmlFor="password" className="block text-sm font-medium text-gray-700">
                                 Password
                             </label>
@@ -68,3 +70,9 @@ export default function Login() {
         </div>
     );
 }
+
+
+
+
+
+
