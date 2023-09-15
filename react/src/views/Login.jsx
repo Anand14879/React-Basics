@@ -4,7 +4,7 @@ export default function Login() {
     return (
 
         <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-purple-500 to-indigo-500 image-format" >
-            {/* <div className="image-format"></div> */}
+        
             <div className="bg-white p-8 rounded-lg shadow-lg w-96">
                 <img
                     className="mx-auto h-16 w-auto"
